@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <title>Project 3 Web Page</title>
+
+                <link rel="stylesheet" href="../css/mySite.css">
+                <script src="script.js"></script>
+        </head>
+
+	<body>
+		<h2 id="h1proj3Statistical">Statistical Calculator</h2>
+
+		<img src="images/COP 4813 Proj3 Pic" width="200" height="200">
+
+		<form onsubmit="event.preventDefault(); return performStatistics();">
+
+			<p>
+				Enter 5 to 20 numbers (ranging in value between 0 and 100). <br>
+				Exactly one (1) space must separate each number.
+			</p>
+
+			<div class="labelsproj3">
+                                <label for="textArea"></label>
+                        	<textarea id="textArea" name="textArea" rows="3" cols="40"></textarea> <br>
+			</div>
+
+			<div class="buttonsproj3">
+				<input type="reset" value="Reset"> &nbsp
+				<input type="submit" value="Submit">
+			</div> <br>
+
+			<div class="labelsproj3">
+                                <label for="min">Min:</label>
+                                <input type="text" name="min" id="min" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="max">Max:</label>
+                                <input type="text" name="max" id="max" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="sum">Sum:</label>
+                                <input type="text" name="sum" id="sum" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="mean">Mean:</label>
+                                <input type="text" name="mean" id="mean" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="median">Median:</label>
+                                <input type="text" name="median" id="median" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="mode">Mode:</label>
+                                <input type="text" name="mode" id="mode" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="var">Variance:</label>
+                                <input type="text" name="var" id="var" readonly> <br>
+                        </div>
+			<div class="labelsproj3">
+                                <label for="stdDev">Std Dev:</label>
+                                <input type="text" name="stdDev" id="stdDev" readonly> <br>
+                        </div>
+
+
+
+	</body>
+
+	<div> <br>
+		<a href="../index.html">E-Portfolio</a>
+        </div>
+
+</html>
+
